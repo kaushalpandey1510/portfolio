@@ -1,0 +1,60 @@
+
+/* 340px or less */
+@media only screen and (max-width: 340px){
+    .header_area .main-menu .navbar,
+    .header_area .main-menu .navbar .navbar-brand{
+        padding: 0%;
+        margin: 0%;
+    }
+    .site-main .site-banner .site-title h1{
+        font-size: 41px;
+    }
+    .site-main .site-banner .site-title h3{
+        padding-top: 7rem;
+    }
+    .site-main .about-area,
+    .site-main .about-area .about-title h2,
+    .site-main .about-area .about-title p
+    {
+        width: 15rem;
+        padding: 2%;
+        
+    }
+
+    .site-main .project-area .container .row .our-project > img {
+        width: 90%;
+        padding: 5%;
+    }
+}
+
+@media only screen and (max-width: 792px){
+    .site-main .about-area .about-title h2 > span{
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
+
+    .site-main .about-area .about-title p{
+        padding: 0%;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 1910px){
+    .header_area .main-menu .navbar{
+        padding: 1rem;
+
+    }
+
+    .container{
+        max-width: 90%;
+    }
+
+    .site-main .brand-area,
+    .site-main .about-area{
+        padding: 3% 4%;
+    }
+
+
+}

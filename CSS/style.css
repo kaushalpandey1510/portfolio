@@ -1,0 +1,134 @@
+/* import fonts from fonts.css*/
+@import url(./fonts.css);
+/* CSS variable */
+@import url(./partials/variable.css);
+/* global file import */
+@import url(./partials/_global.css);
+
+/* Navigation */
+
+.header_area .main_menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: var(--primary-color2);
+}
+
+.header_area .main_menu .navbar{
+    padding: 1rem 0;
+}
+
+.header_area .main_menu .nav-item .nav-link{
+    font-family: var(--roboto);
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 0.5rem 2rem;
+    color: var(--gradient-color);
+}
+
+.header_area .main_menu .navbar .navbar-nav .active {
+    background-color: var(--primary-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    transition: 0.3 ease background-color;
+}
+
+.header_area .main_menu .navbar .navbar-nav a:hover{
+    color: var(--primary-color2)
+}
+
+/* Banner Area*/
+
+.site-main .site-banner{
+    background: url(../img/home-banner.png) no-repeat;
+    padding-left: 20%;
+}
+
+.site-main .site-banner .site-title a{
+    text-decoration: none;
+    
+}
+
+.site-main .site-banner .site-title a:hover{
+    text-decoration: none;
+}
+
+.site-main .site-banner .site-title h3{
+    padding-top: 20%;
+}
+
+.site-main .site-banner .site-title h1{
+    padding-top: 0%;
+    padding-bottom: 0%;
+    font-size: 3rem;
+}
+
+.site-main .site-banner .site-title h4{
+    padding-top: 0%;
+    font-size: 1rem;
+}
+
+/* about area */
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .container-fluid{
+    padding-top: 7rem;
+}
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bolder var(--roboto);
+    font-size: 1.9rem;
+    letter-spacing: 10px;
+}
+
+/* Project Area */
+
+.site-main .project-area{
+    padding: 4rem 0;
+}
+
+.site-main .project-area .container{
+    margin-top: 5rem;
+}
+
+.site-main .project-area .grid{
+    padding: 0 5rem
+}
+
+.site-main .project-area .grid .our-project .title > a{
+   color: #25252d;
+   text-decoration: none;
+}
+
+.site-main .project-area .grid .our-project .title > h4 {
+    font: normal 700 25px/12px var(--roboto)
+}
+
+.site-main .project-area .grid .our-project .img:hover {
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+/* Footer area */
+
+footer.footer-area{
+    padding: 5rem 0;
+    background: url(../img/footer-bg.png) no-repeat;
+}
+
+.footer-area .social h5{
+   font: small 500 23px/30px var(--roboto);
+}
+.footer-area .social a > i{
+   font-size: 22px;
+   padding: 2rem;
+   color: var(--primary-color2);
+}
+.footer-area .social a:hover > i{
+   color: var(--border-color);
+}
+
+
