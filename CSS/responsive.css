@@ -2,15 +2,20 @@
 /* 340px or less */
 @media only screen and (max-width: 340px){
     .header_area .main-menu .navbar,
-    .header_area .main-menu .navbar .navbar-brand{
-        padding: 0%;
+    .header_area .main_menu .navbar .navbar-brand{
+        padding: 0 2rem 0 0;
         margin: 0%;
+        justify-content: left;
     }
     .site-main .site-banner .site-title h1{
         font-size: 41px;
     }
     .site-main .site-banner .site-title h3{
         padding-top: 7rem;
+    }
+
+    .site-main .site-banner .banner-image > img{
+        display: none;
     }
     .site-main .about-area,
     .site-main .about-area .about-title h2,
