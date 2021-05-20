@@ -130,5 +130,7 @@ footer.footer-area{
 .footer-area .social a:hover > i{
    color: var(--border-color);
 }
-
+.footer-area .web-counter .counter{
+    justify-items: center;
+}
 
