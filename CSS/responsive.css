@@ -1,68 +1,16 @@
-
-/* 340px or less */
-@media only screen and (max-width: 340px){
-    .header_area .main-menu .navbar,
-    .header_area .main_menu .navbar .navbar-brand{
-        padding: 0 2rem 0 0;
-        margin: 0%;
-        justify-content: center;
-    }
-    .site-main .site-banner .site-title h1{
-        font-size: 41px;
-    }
-    .site-main .site-banner .site-title h3{
-        padding-top: 7rem;
-    }
-
-    .site-main .site-banner .banner-image > img{
-        display: none;
-    }
-    .site-main .about-area,
-    .site-main .about-area .about-title h2,
-    .site-main .about-area .about-title p
-    {
-        width: 15rem;
-        padding: 2%;
-        
-    }
-
-    .site-main .project-area .container .row .our-project > img {
-        width: 90%;
-        padding: 5%;
-    }
-}
-
-@media only screen and (min-device-width : 341px) and (max-device-width : 896px)
+@media only screen and (max-device-width : 791px)
 {
     .header_area .main-menu .navbar,
     .header_area .main_menu .navbar .navbar-brand{
         padding: 0 2rem 0 0;
         margin: 0%;
-        justify-content: center;
     }
-    .site-main .site-banner .site-title h1{
-        font-size: 41px;
-    }
-    .site-main .site-banner .site-title h3{
-        padding-top: 7rem;
-    }
-
     .site-main .site-banner .banner-image > img{
         display: none;
     }
-    .site-main .about-area,
-    .site-main .about-area .about-title h2,
-    .site-main .about-area .about-title p
-    {
-        width: 15rem;
-        padding: 2%;
-        
-    }
-
-    .site-main .project-area .container .row .our-project > img {
-        width: 90%;
-        padding: 5%;
-    } 
+	.site-main .project-area .grid {
+    padding: 0 2rem;
+}
 }
 
 
